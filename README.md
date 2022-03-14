@@ -8,7 +8,7 @@
 composer require falbar/trait-singleton
 ```
 
-## Примеры использования
+## Пример использования
 
 ```php
 ExampleSingletonClass::instance();
