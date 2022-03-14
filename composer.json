@@ -1,0 +1,19 @@
+{
+    "name": "falbar/trait-singleton",
+    "description": "Trait implementing singleton pattern.",
+    "keywords": [
+        "php",
+        "singleton",
+        "pattern"
+    ],
+    "homepage": "http://falbar.ru/",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Falbar\\TraitSingleton\\": "src"
+        }
+    }
+}
