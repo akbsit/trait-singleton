@@ -1,14 +1,25 @@
 # trait-singleton, [Packagist](https://packagist.org/packages/falbar/trait-singleton)
 
-## Установка
+## Install
 
-Для установки пакета нужно:
+To install package, you need run command:
 
 ```bash
 composer require falbar/trait-singleton
 ```
 
-## Пример использования
+## Example
+
+```php
+<?php namespace App\Classes;
+
+use Falbar\TraitSingleton\SingletonTrait;
+
+class ExampleSingletonClass
+{
+    use SingletonTrait;
+}
+```
 
 ```php
 ExampleSingletonClass::instance();
