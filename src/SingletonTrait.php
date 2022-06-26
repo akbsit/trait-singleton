@@ -9,7 +9,7 @@ trait SingletonTrait
     /* @var $this */
     protected static $oThis;
 
-    /* @return mixed */
+    /* @return $this */
     public static function instance()
     {
         if (empty(static::$oThis)) {
