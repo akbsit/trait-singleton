@@ -1,11 +1,11 @@
-# trait-singleton, [Packagist](https://packagist.org/packages/falbar/trait-singleton)
+# trait-singleton, [Packagist](https://packagist.org/packages/akbsit/trait-singleton)
 
 ## Install
 
 To install package, you need run command:
 
 ```bash
-composer require falbar/trait-singleton
+composer require akbsit/trait-singleton
 ```
 
 ## Example
@@ -13,7 +13,7 @@ composer require falbar/trait-singleton
 ```php
 <?php namespace App\Classes;
 
-use Falbar\TraitSingleton\SingletonTrait;
+use Akbsit\TraitSingleton\SingletonTrait;
 
 class ExampleSingletonClass
 {

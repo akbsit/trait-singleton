@@ -1,8 +1,8 @@
-<?php namespace Falbar\TraitSingleton;
+<?php namespace Akbsit\TraitSingleton;
 
 /**
  * Trait SingletonTrait
- * @package Falbar\TraitSingleton
+ * @package Akbsit\TraitSingleton
  */
 trait SingletonTrait
 {
